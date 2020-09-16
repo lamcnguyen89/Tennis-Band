@@ -1,0 +1,76 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url("../fonts/TR\ Pump\ Triline.TTF");
+}
+
+@font-face {
+    font-family: mySecondFont;
+    src: url("../fonts/TR\ Candice.TTF");
+}
+
+@font-face {
+    font-family: myThirdFont;
+    src: url("../fonts/Gerona.ttf");
+}
+
+.background-about {
+    background-image: url("../images/Tennis_Background-07.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.background-music {
+    background-image: url("../images/Tennis_Background-05.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.background-store {
+    background-image: url("../images/Tennis_Background-04.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.background-contact {
+    background-image: url("../images/Tennis_Background-02.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.background-album {
+    background-image: url("../images/Tennis_Background-08.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.banner{
+    color: #f7f8e3;
+    font-family: myThirdFont;
+    font-size: 120px;
+}
+
+.fa {
+    font-size:24px;
+    color: #f7f8e3; 
+}
+
+main {
+    background-color: rgba(97, 81, 81, 0.4);
+    color: #f7f8e3;
+    font-family: myThirdFont 
+}
+
+
+.navigationtext {
+    color: #f7f8e3;
+    font-family: myThirdFont 
+}
+
+.dropdown {
+    background-color: rgba(247, 248, 227, 0.5) !important;
+}
