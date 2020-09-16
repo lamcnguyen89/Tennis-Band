@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tennis-Music: Store</title>
+    <title>Tennis-Music: Cape Dory</title>
     <link 
         rel="stylesheet" 
         href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
@@ -53,11 +53,43 @@
       
 
     <main class="container p-2 my-4">
-        <!-- "my-4" is a bootstrap notation that controls the top and bottom margins for  the container."p-2" is a bootstrap notation that controls the padding for the container. Information can be found in the Bootstrap documentation under the Spacing section.
-         -->
-            
 
-    <main>
+        <h1 class="headingformats">Cape Dory</h1>
+        <h3 class="headingformats">Released January 2011</h3>
+        <hr>
+        <div class="row">
+            <div class="col-4">
+              <div class="list-group" id="list-tab" role="tablist">
+                <a class="list-group-item list-group-item-action active" id="list-home-list" data-toggle="list" href="#list-home" role="tab" aria-controls="home">Home</a>
+                <a class="list-group-item list-group-item-action" id="list-profile-list" data-toggle="list" href="#list-profile" role="tab" aria-controls="profile">Profile</a>
+                <a class="list-group-item list-group-item-action" id="list-messages-list" data-toggle="list" href="#list-messages" role="tab" aria-controls="messages">Messages</a>
+                <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="list" href="#list-settings" role="tab" aria-controls="settings">Settings</a>
+              </div>
+            </div>
+            <div class="col-8">
+              <div class="tab-content" id="nav-tabContent">
+                <div class="tab-pane fade show active" id="list-home" role="tabpanel" aria-labelledby="list-home-list">
+                    ...
+                </div>
+                <div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">
+                    ...
+                </div>
+                <div class="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">
+                    ...
+                </div>
+                <div class="tab-pane fade" id="list-settings" role="tabpanel" aria-labelledby="list-settings-list">
+                    ...
+                </div>
+              </div>
+            </div>
+          </div>
+    </main> 
+    
+    <footer class="footer">
+        <div class="container text-center">
+            <p class="pt-3">Copyright&copy 2020, Midnight Machine LLC.</p>
+        </div>
+    </footer>
 
         <script
             src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous">
@@ -68,7 +100,7 @@
         <script 
             src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
         </script>
-    </main>
+    
     
 </body>
 </html>
