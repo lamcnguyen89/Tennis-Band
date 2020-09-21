@@ -13,6 +13,15 @@
     src: url("../fonts/Gerona.ttf");
 }
 
+.seated-event-link1 {
+    color: #f7f8e3;
+    /* border-style: solid;
+    border-collapse: collapse; */
+    border-radius: 50px;
+    border-width: thin; 
+    padding: 10px;
+}
+
 .background-about {
     background-image: url("../images/Tennis_Background-07.png");
     background-repeat: no-repeat;
@@ -59,6 +68,10 @@
     color: #f7f8e3; 
 }
 
+h1, h2, h3, h4, h5 {
+    text-align: center;
+}
+
 main {
     background-color: rgba(97, 81, 81, 0.4);
     color: #f7f8e3;
@@ -89,4 +102,11 @@ footer {
 
 .list-group-item {
     background-color: rgba(247, 248, 227, 0.5) !important; 
+}
+
+
+th, tr{
+    color: #f7f8e3;
+    text-align: center;
+    vertical-align: middle;
 }

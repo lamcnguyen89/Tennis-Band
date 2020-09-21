@@ -59,7 +59,7 @@
                 <!--"mt-3" is a bootstrap notation that controls the top margin of the container. Information is found in the Bootstrap documentation under the Spacing section.-->
                     <article>
                         <img 
-                        class="mx-auto d-block img-fluid rounded mr-4 mb-4"
+                        class="float left mx-auto d-block img-fluid rounded mr-4 mb-4"
                         src="assets/images/Tennis_Profile.png" 
                         alt="Tennis Image">
                         
@@ -84,17 +84,19 @@
                 <h1 class="headingformats">Tour Dates</h1>
                 <hr>
 
-                <table class="table">
-                    <thead>
-                      <tr>
-                        <th scope="col">Venue Name</th>
-                        <th scope="col">Venue Location</th>
-                        <th scope="col">Tickets</th>
-                      </tr>
-                    </thead>
-                    <tbody id="tourRows">
-                    </tbody>
-                  </table>
+                <div class="table-responsive">
+                    <table class="table table-hover">
+                        <thead>
+                          <!-- <tr>
+                            <th scope="col">Venue Name</th>
+                            <th scope="col">Venue Location</th>
+                            <th scope="col">Tickets</th>
+                          </tr> -->
+                        </thead>
+                        <tbody id="tourRows">
+                        </tbody>
+                    </table>
+                </div>
 
             </article>
 
