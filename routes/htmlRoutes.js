@@ -32,12 +32,36 @@ module.exports = function(app) {
 
     // GET "/store" shows the Contact Me page
     app.get("/store", function(req, res) {
-        res.sendFile(path.join(__dirname, "../public/contact.html"));
+        res.sendFile(path.join(__dirname, "../public/store.html"));
     });
 
     // GET "/error" shows the thank you page after someone submits a message on the contact form
     app.get("/error", function(req, res) {
         res.sendFile(path.join(__dirname, "../public/error.html"));
+    });
+
+    // html Routes for the individual album pages
+
+    app.get("/capedory", function(req, res) {
+        res.sendFile(path.join(__dirname, "../public/albumpages/capedory.html"));
+    });
+    app.get("/ritualinrepeat", function(req, res) {
+        res.sendFile(path.join(__dirname, "../public/albumpages/ritualinrepeat.html"));
+    });
+    app.get("/smallsound", function(req, res) {
+        res.sendFile(path.join(__dirname, "../public/albumpages/smallsound.html"));
+    });
+    app.get("/swimmer", function(req, res) {
+        res.sendFile(path.join(__dirname, "../public/albumpages/swimmer.html"));
+    });
+    app.get("/wecandiehappy", function(req, res) {
+        res.sendFile(path.join(__dirname, "../public/albumpages/wecandiehappy.html"));
+    });
+    app.get("/youngandold", function(req, res) {
+        res.sendFile(path.join(__dirname, "../public/albumpages/youngandold.html"));
+    });
+    app.get("/yoursconditionally", function(req, res) {
+        res.sendFile(path.join(__dirname, "../public/albumpages/yoursconditionally.html"));
     });
 
 

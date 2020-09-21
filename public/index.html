@@ -38,10 +38,10 @@
               </button>
               <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
-                  <a class="nav-item nav-link navigationtext" href="index.html">About <span class="sr-only">(current)</span></a>
-                  <a class="nav-item nav-link navigationtext" href="music.html">Music</a>
-                  <a class="nav-item nav-link navigationtext" href="store.html">Store</a>
-                  <a class="nav-item nav-link navigationtext" href="contact.html">Contact</a>
+                  <a class="nav-item nav-link navigationtext" href="/">About <span class="sr-only">(current)</span></a>
+                  <a class="nav-item nav-link navigationtext" href="/music">Music</a>
+                  <a class="nav-item nav-link navigationtext" href="/store">Store</a>
+                  <a class="nav-item nav-link navigationtext" href="/contact">Contact</a>
                 </div>
               </div>
         </div>
@@ -59,7 +59,7 @@
                 <!--"mt-3" is a bootstrap notation that controls the top margin of the container. Information is found in the Bootstrap documentation under the Spacing section.-->
                     <article>
                         <img 
-                        class="aboutImg rounded mr-4 mb-4"
+                        class="mx-auto d-block img-fluid rounded mr-4 mb-4"
                         src="assets/images/Tennis_Profile.png" 
                         alt="Tennis Image">
                         
@@ -80,6 +80,26 @@
                 </article>
             </article>
 
+            <article class= "container p-2 mb-4 rounded">
+                <h1 class="headingformats">Tour Dates</h1>
+                <hr>
+
+                <table class="table">
+                    <thead>
+                      <tr>
+                        <th scope="col">Venue Name</th>
+                        <th scope="col">Venue Location</th>
+                        <th scope="col">Tickets</th>
+                      </tr>
+                    </thead>
+                    <tbody id="tourRows">
+                    </tbody>
+                  </table>
+
+            </article>
+
+            
+
 
     </main>
 
@@ -89,7 +109,7 @@
         </div>
     </footer>
     
-
+    
         <script
             src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous">
         </script>
@@ -99,6 +119,7 @@
         <script 
             src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
         </script>
+        <script src="assets/javascript/showdates.js"></script>
    
     
     

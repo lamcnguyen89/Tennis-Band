@@ -1,14 +1,14 @@
 {
-    "name": "lam_nguyen_portfolio",
-    "version": "1.0.0",
-    "description": "Personal Portfolio for Lam Nguyen",
-    "main": "server.js",
-    "dependencies": {
-       "express": "^4.17.1",
-       "dotenv": "^8.2.0",
-       "nodemailer": "^6.4.11"
-    },
-    "scripts": {
-      "start": "node server.js"
-    }
+  "name": "lam_nguyen_portfolio",
+  "version": "1.0.0",
+  "description": "Personal Portfolio for Lam Nguyen",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "dotenv": "^8.2.0",
+    "nodemailer": "^6.4.11"
+  },
+  "scripts": {
+    "start": "node server.js"
   }
+}

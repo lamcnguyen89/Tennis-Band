@@ -22,16 +22,34 @@ function showDates(shows) {
          var venueLocation = shows[i].venueLocation;
          var eventURL = shows[i].eventURL;
          var eventStatus = shows[i].eventStatus;
-         var table = document.getElementById('tourDates')
+         var table = document.getElementById('tourRows');
 
          createElements()
 
          // Function to generate html table elements:
          function createElements() {
              var tableRow = `<tr>
-                                <td> ${eventDate}<br>${venueName} </td>
-                                <td> ${venueLocation}</td>
-                                <td> ${eventURL}</td>
+                                <td>  
+                                    <div class="seated-event-date-cell">
+                                        ${eventDate}
+                                    </div>
+                                    <div class="seated-event-venue-cell">
+                                        ${venueName}
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="seated-event-venue-location">
+                                        ${venueLocation}
+                                    </div>             
+                                </td>
+                                <td> 
+                                    <div class="seated-event-link-cells">
+                                        <a class="seated-event-link1" href=${eventURL} target="_blank">
+                                            ${eventStatus}
+                                        </a> 
+                                    </div>
+
+                                </td>
                             </tr>`
             table.innerHTML += tableRow
          } 
