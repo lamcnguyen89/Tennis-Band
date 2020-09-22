@@ -13,6 +13,10 @@
     src: url("../fonts/Gerona.ttf");
 }
 
+.aboutImg {
+    float: left;
+}
+
 .seated-event-link1 {
     color: #f7f8e3;
     /* border-style: solid;
@@ -68,7 +72,7 @@
     color: #f7f8e3; 
 }
 
-h1, h2, h3, h4, h5 {
+.headingformats {
     text-align: center;
 }
 
