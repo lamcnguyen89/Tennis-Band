@@ -36,7 +36,7 @@ module.exports = function(app) {
         const mailOpts = {
             from: 'Your sender info here', // This is ignored by Gmail
             to: GMAIL_USER,
-            subject: 'Message from my Personal Portfolio',
+            subject: 'Message from the Tennis-Music Official Website',
             text: 
 `Name:${req.body.name} 
 Email Address:(${req.body.email})

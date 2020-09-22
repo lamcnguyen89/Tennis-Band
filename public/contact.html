@@ -58,42 +58,47 @@
             <h1 class="headingformats">Contact Us</h1>
             <hr>
       
-              <article class= "row justify-content-center">
-                  <article class="col-sm-12">
-                      <form onsubmit="return false">
-                          <article class="form-group">
-                            <label for="formGroupExampleInput">Name</label>
-                            <input 
-                              type="text" 
-                              class="form-control" 
-                              id="formGroupExampleInput" 
-                              placeholder="First Name and Last Name"
-                            >
-                          </article>
-                          <article class="form-group">
-                            <label for="formGroupExampleInput2">Email</label>
-                            <input 
-                              type="text" 
-                              class="form-control" 
-                              id="formGroupExampleInput2" 
-                              placeholder="Example@gmail.com"
-                            >
-                          </article>
-                          <article class="form-group">
-                            <label for="exampleFormControlTextarea1">Message</label>
-                            <textarea 
-                              class="form-control" 
-                              id="exampleFormControlTextarea1" 
-                              rows="5" 
-                              placeholder="Enter your message here."
-                            >
-                            </textarea>
-                          </article>
-                          <button type="submit" class="btn btn-primary mb-2">Submit</button>
-                          
-                        </form>
-                  </article>
+            <article class= "row justify-content-center">
+              <article class="col-sm-12">
+                  <form action="/contact" id="contact-form" method="post" role="form">
+                      <article class="form-group">
+                        <label for="name">Name</label>
+                        <input 
+                          type="text" 
+                          class="form-control" 
+                          id="name"
+                          name="name"
+                          required="required" 
+                          placeholder="First Name and Last Name"
+                        >
+                      </article>
+                      <article class="form-group">
+                        <label for="email">Email</label>
+                        <input 
+                          type="text" 
+                          class="form-control" 
+                          id="email"
+                          name="email"
+                          required="required" 
+                          placeholder="Example@gmail.com"
+                        >
+                      </article>
+                      <article class="form-group">
+                        <label for="message">Message</label>
+                        <textarea 
+                          class="form-control" 
+                          id="message"
+                          name="message" 
+                          rows="5" 
+                          placeholder="Message"
+                        >
+                        </textarea>
+                      </article>
+                      <button type="submit" class="btn btn-primary mb-2">Submit</button>
+                      
+                    </form>
               </article>
+           </article>
       
 
         </main>
