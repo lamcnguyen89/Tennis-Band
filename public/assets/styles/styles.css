@@ -119,14 +119,14 @@ th, tr{
 
 @media (max-width: 320px) {
     .banner {
-        font-size: 70git px;
+        font-size: 70px;
 
     }
 }
 
 @media (max-width: 768px) {
     .banner {
-        font-size: 90px;
+        font-size: 95px;
 
     }
 }
