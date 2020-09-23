@@ -13,6 +13,18 @@
     src: url("../fonts/Gerona.ttf");
 }
 
+@media (max-width: 320px) {
+    .banner {
+        font-size: 90px;
+    }
+}
+
+@media (max-width: 768px) {
+    .banner {
+        font-size: 90px;
+    }
+}
+
 .aboutImg {
     float: left;
 }
@@ -114,3 +126,4 @@ th, tr{
     text-align: center;
     vertical-align: middle;
 }
+
